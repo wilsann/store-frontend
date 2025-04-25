@@ -5,6 +5,7 @@
     <SliderPic />
     <InstaStore />
     <PartnerStore />
+    <footer-store/>
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import HeroStore from '@/components/HeroStore.vue';
 import SliderPic from '@/components/SliderPic.vue';
 import InstaStore from '@/components/InstaStore.vue';
 import PartnerStore from '@/components/PartnerStore.vue';
+import FooterStore from '@/components/FooterStore.vue';
 
 export default {
   name: "HomeView",
@@ -24,7 +26,8 @@ export default {
     HeroStore,
     SliderPic,
     InstaStore,
-    PartnerStore
+    PartnerStore,
+    FooterStore,
   }
 };
 </script>
